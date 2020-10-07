@@ -1,0 +1,396 @@
+<html>
+<title>EXP 4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" href="styley.css">
+	<link href="Style.css" rel="stylesheet" type="text/css">
+
+
+<header class="w3-container">
+	<style>
+			#banner {
+			  padding: 10px;
+			  width: 900px;
+			  height: 150px;
+			  margin: 0 auto;
+			}
+
+			#bg {
+			  height:500px;
+			  width:1080px;
+			}
+
+			section:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+	    body{
+	    	  color: #0a0a0a;
+	        padding-top: 60px;
+	        padding-bottom: 40px;
+					font-family: sans-serif;
+	    }
+			.videoCont{
+				max-width: 950px;
+				width: 100%;
+				margin: auto;
+				height: 55vh;
+				display: flex;
+				align-items: center;
+				font-weight: bold;
+			}
+			.mar{
+				max-width: 950px;
+				width: 100%;
+				margin: auto;
+				display: flex;
+				align-items: center;
+
+			}
+
+			.box1{
+				position: absolute;
+				float: left;
+			  width: 450px;
+				height: 300px;
+				padding-top: 1%;
+				left: 20%;
+			  margin: 0 auto;
+			}
+
+			.box2{
+				position: absolute;
+				float: left;
+				width: 450px;
+				height: 300px;
+				left: 55%;
+				padding-top: 1%;
+				margin: 0 auto;
+			}
+
+			.notice{
+				position: absolute;
+				float: right;
+				width: 250px;
+				height: 500px;
+				top: 130%;
+				right: 20%;
+				padding-top: 1%;
+			}
+
+			.noticeright{
+				position: absolute;
+				float: right;
+				width: 650px;
+				height: 500px;
+				top: 130%;
+				left: 20%;
+				padding-top: 1%;
+			}
+
+			.noticerightbox1 {
+				top: 3%;
+				width: 300px;
+				height: 230px;
+			}
+		  .noticerightbox2{
+				top: 3%;
+				width: 300px;
+				height: 230px;
+			}
+			.noticerightbox3 {
+				position: absolute;
+				width: 300px;
+				right: 0%;
+				top: 3%;
+				height: 230px;
+			}
+			.noticerightbox4{
+				position: absolute;
+				width: 300px;
+				height: 230px;
+				right: 0%;
+				bottom: 1%;
+			}
+
+			.dept{
+				position: absolute;
+				border: 10px solid gray;
+				max-width: 910px;
+				width:100%;
+				height: 600px;
+				top: 200%;
+				left: 20%;
+			}
+			.dept1{
+				position: absolute;
+				border: 10px solid gray;
+				width: 200px;
+				top:10%;
+				left: 10%;
+				height: 200px;
+			}
+			.dept2{
+				position: absolute;
+				border: 10px solid gray;
+				width: 200px;
+				bottom: 10%;
+				left: 10%;
+				height: 200px;
+			}
+			.dept3{
+				position: absolute;
+				border: 10px solid gray;
+				width: 200px;
+				top:10%;
+				left: 39%;
+				height: 200px;
+			}
+			.dept4{
+				position: absolute;
+				border: 10px solid gray;
+				width: 200px;
+				bottom: 10%;
+				left: 39%;
+				height: 200px;
+			}
+			.dept5{
+				position: absolute;
+				border: 10px solid gray;
+				width: 200px;
+				right:  10%;
+				top:  10%;
+
+				height: 200px;
+			}
+			.dept6{
+				position: absolute;
+				border: 10px solid gray;
+				width: 200px;
+				bottom: 10%;
+				right:  10%;
+				height: 200px;
+			}
+
+
+
+	    .fixed-header, .fixed-footer{
+	        width: 80%;
+	        position: fixed;
+	        text-align: center;
+	        padding: 7px 25px;
+	        padding: 10px 0;
+	        left: 10%;
+	    }
+	    .fixed-header{
+	        top: 0;
+	    }
+	    .fixed-footer{
+	        bottom: 0;
+
+	    }
+	    .containeri{
+	        width: 80%;
+	        margin: 0 auto;
+	        text-align: center;
+	        flex-direction: column;
+	    }
+
+		.clear{
+		  clear: left;
+		}
+
+		.container {
+		  text-align: center;
+		  width: 800px;
+		  height: 200px;
+		  padding: 10px;
+		  margin: 0 auto;
+		}
+
+		.left {
+		  float: left;
+		  width: 400px;
+		  padding: 30px;
+		  margin: 0 auto;
+		}
+		.IMGCS{
+			display: flex;
+			align-items: center;
+			width:250;
+			height:130;
+			margin: auto;
+		}
+		.h4{
+			text-align: center;
+			font-weight: bold;
+		}
+		.h44{
+			text-align: center;
+			font-weight: bold;
+		}
+		.youtubebox{
+			position: inherit;
+			width: 230px;
+			height: 200px;
+		}
+
+
+
+
+</style>
+
+<div>
+	<center><a href="wxp4.html"> <img id="banner" src="pp.png"> </center></a>
+</div>
+
+<div>
+	<div class="nav" >
+
+</div>
+	<div class="containeri">
+    	<nav>
+    			<a href="#" onclick="play()" ondblclick="stop()">
+						<div class="mid" >
+					        <div class="bar bar1"></div>
+					        <div class="bar bar2"></div>
+					        <div class="bar bar3"></div>
+					        <div class="bar bar4"></div>
+					        <div class="bar bar5"></div>
+						</div>
+					</a>
+					<br>
+					<a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+					<a href="#" class="w3-bar-item w3-button">ADMISSIONS</a>
+					<a href="#" class="w3-bar-item w3-button">DEPARTMENTS</a>
+					<a href="#" class="w3-bar-item w3-button">RESEARCH</a>
+					<a href="#" class="w3-bar-item w3-button">TRAINING & PLACEMENT</a>
+					<a href="#" class="w3-bar-item w3-button">CAMPUS LIFE</a>
+					<a href="#" class="w3-bar-item w3-button">CONTACT US</a>
+		 </nav>
+	</div>
+</div>
+</header>
+<body>
+
+	<video class="videoCont" controls>
+	  <source src="video.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+		<marquee class="mar">  NIRF-2020 |   Aarogya Setu App notification |   Admission 2020-21-First Year(B.Tech)   Admission 2020-21 Direct Second Year(B.Tech)   Admission 2020-21 M.Tech |</marquee>
+
+	<di class="box1">
+		<h4 class="h4">WELCOME</h4>
+		<img class ="IMGCS" src="clg-img.jpg" >
+		<p align="c"> N. K. Orchid College Of Engg. & Technology, Solapur
+				 is run by The Pradnya Niketan Education Society,Pune-(PNES).
+				 NKOCET approved by  AICTE New Delhi, opened its gate for
+				 technology Education from 2008-09.</p>
+	</di>
+
+	<di class="box2">
+		<h4 class="h44" > Event Notices & Circulars</h4>
+		<ul>
+			<li>
+				Regular Students Admission for S.Y.(B.Tech),T.Y.(B.Tech),Final Year(B.Tech) AY 2020-21
+			</li>
+			<li>14Jul2020</li>
+			<li>Notice for Change of Branch after First Year</li>
+			<li>14Jul2020</li>
+		</ul>
+	</di>
+
+
+	<di class="notice">
+			<h2 class="h44">Admissions <br>2020-21</h2>
+			<h5 class="h44">
+				  <a href="#">B.Tech. -FE</a>
+					First Year admission 2020-21<br><br>
+					<a href="#">B. Tech. - DSE</a><br>
+					Direct Second Year Admission 2020-21<br><br>
+					<a href="#">M. Tech. - PG</a><br>
+					Master of Technology admission 2020-21<br><br>
+					<a href="#">Admission Enquiry Form</a>
+					<br>
+			</h5>
+
+	</di>
+	<di class="noticeright">
+		<div class="noticerightbox1">
+			<h4 class="h44">Campus Tour of Orchid
+					<iframe class="youtubebox" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+			</h4>
+
+    </div>
+		<div class="noticerightbox2">
+			<h4 class="h44">Highlight of DBATU
+				<iframe class="youtubebox" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+
+			</h4>
+	  </div>
+		<div class="noticerightbox3">
+			<h4 class="h44">Short Tour of Orchid
+				<iframe class="youtubebox" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+			</h4>
+		</div>
+		<div class="noticerightbox4">
+			<h4 class="h44">Placements News
+				<iframe class="youtubebox" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+			</h4>
+		</div>
+	</di>
+
+
+
+
+	<div class="dept">
+		<h4 class="h4">DEPARTMENTS</h4>
+		<div class="dept1">
+			<h4 class="h44">Civil Engineering</h4>
+		</div>
+		<div class="dept2">
+			<h4 class="h44">Computer Sci. Engineering</h4>
+		</div>
+		<div class="dept3">
+			<h4 class="h44">E & TC Engineering</h4>
+	  </div>
+		<div class="dept4">
+		  <h4 class="h44">Electrical Engineering</h4>
+		</div>
+		<div class="dept5">
+			<h4 class="h44">Mechanical Engineering</h4>
+		</div>
+		<div class="dept6">
+			<h4 class="h44">General Engineering</h4>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<audio id="audio"  autoplay loop>
+		<source src="loco.m4a"></source>
+</audio>
+
+<footer class="fixed-footer" >
+  <div class="containeri">Copyright &copy; 2020 COLLAGE</div>
+</footer>
+
+</body>
+  <script>
+      function play() {
+      		var audio = document.getElementById("audio");
+        	audio.play();
+      }
+      function stop() {
+      	    var audio = document.getElementById("audio");
+        	audio.pause();
+      }
+ </script>
+</html>
